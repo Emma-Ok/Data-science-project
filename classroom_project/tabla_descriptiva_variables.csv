@@ -1,0 +1,10 @@
+﻿Variable,Tipo,Definición,Relevancia,Fuente
+age,Discreta,Edad del jugador expresada en años completos.,Permite analizar la relación entre la madurez deportiva y el rendimiento técnico-físico.,UEFA Champions League - Registro oficial de jugadores 2025
+goals,Discreta,Número total de goles anotados por el jugador en la temporada.,Mide directamente la eficacia ofensiva y capacidad de finalización.,UEFA Champions League - Estadísticas oficiales 2025
+assists,Discreta,Cantidad total de asistencias realizadas por el jugador.,Evalúa la creatividad y contribución al juego colectivo.,UEFA Champions League - Estadísticas oficiales 2025
+tackles_won,Discreta,Número de entradas exitosas en disputa de balón.,Refleja la efectividad defensiva y capacidad de recuperación.,UEFA Champions League - Estadísticas defensivas oficiales 2025
+total_attempts,Continua,Promedio total de intentos de disparo realizados por el jugador.,Refleja la efectividad para hacer tiros al arco.,UEFA Champions League - Estadísticas de tiro
+passing_accuracy(%),Continua,Porcentaje de precisión en los pases realizados.,Mide la calidad técnica y toma de decisiones con balón.,UEFA Champions League - Datos técnicos oficiales 2025
+distance_covered(km/h),Continua,Distancia total recorrida por el jugador durante los partidos (en km/h).,Evalúa la capacidad física y resistencia durante el juego.,UEFA Champions League - Sistema de tracking físico 2025
+top_speed,Continua,Velocidad máxima alcanzada por el jugador durante el torneo.,Refleja la potencia y desempeño físico explosivo.,UEFA Champions League - Sistema de tracking físico 2025
+minutes_played,Continua,Velocidad máxima alcanzada por el jugador durante el torneo.,Refleja la potencia y desempeño físico explosivo.,UEFA Champions League - Sistema de tracking físico 2025
