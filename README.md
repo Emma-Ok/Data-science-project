@@ -528,6 +528,14 @@ jupyter==1.0.0
    - Distancia recorrida correlaciona con minutos jugados (r=0.89)
    - Precisión de pases facilita asistencias (r=0.45)
 
+### Fase 4: Preparación Avanzada de Datos
+
+- **Normalidad y forma de las distribuciones:** Se contrastaron Shapiro-Wilk, asimetría y Q-Q plots para resguardar la forma real de `passing_accuracy(%)`, `distance_covered(km/h)`, `goals` y `total_attempts`. Se mantuvieron las distribuciones originales y solo se sugieren transformaciones logarítmicas cuando un modelo estrictamente gaussiano lo requiera.
+- **Valores faltantes MNAR:** El patrón responde a roles deportivos (suplentes sin minutos, métricas no capturadas por posición). Imputar agregaría sesgos, por lo que se optó por conservarlos, documentarlos y suplirlos con indicadores binarios o análisis segmentados cuando sea necesario.
+- **Codificación híbrida:** Variables con ≤10 categorías usan One-Hot Encoding; las de alta cardinalidad (club, nacionalidad) emplean Label Encoding documentado. El resultado es `df_encoded`, listo para pipelines y dashboards sin perder interpretabilidad.
+- **Escalamiento multitécnica:** Se generaron `df_standardized`, `df_normalized` y `df_robust`. RobustScaler se declara estándar porque protege la señal de los outliers legítimos sin distorsionar al resto de jugadores.
+- **Entregables y próximos pasos:** Además de los datasets anteriores, se liberaron reportes visuales de missing y comparativas antes/después. El stack queda listo para modelado predictivo, clustering táctico y análisis explicable (Feature Importance/SHAP) sobre `df_robust + df_encoded`.
+
 ### Recomendaciones
 
 **Para Equipos Técnicos:**
@@ -567,6 +575,7 @@ jupyter==1.0.0
 
 <div align="center">
 
+**⚽ Hecho con pasión por la ciencia de datos y el fútbol ⚽**
 
 ![Footer](https://img.shields.io/badge/Made%20with-Python%20%F0%9F%90%8D-blue?style=for-the-badge)
 ![Footer](https://img.shields.io/badge/Data%20Science-⚽%20Football-green?style=for-the-badge)
