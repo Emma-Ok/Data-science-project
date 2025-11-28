@@ -6,11 +6,16 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 **Análisis Multitécnico de Rendimiento de Jugadores de Fútbol de Élite**
 
-[🔍 Ver Notebook](#) | [📊 Datos](#datos) | [📈 Resultados](#resultados) | [🎯 Conclusiones](CONCLUSIONES_ANALISIS_UEFA_CL_2025.md)
+[🌐 App en Streamlit](https://data-science-project-ri6a6ta3gf3y3exds5kpta.streamlit.app/) |
+[🔍 Ver Notebook](#) |
+[📊 Datos](#datos) |
+[📈 Resultados](#resultados) |
+[🎯 Conclusiones](CONCLUSIONES_ANALISIS_UEFA_CL_2025.md)
 
 </div>
 
